@@ -6,8 +6,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+ .App{
+   background-image: url('./image/bg.jpg');
+ }
+ .App.warm{
+   background-image: url('./image/bg2.jpg');
+   background-position: top;
+ }
