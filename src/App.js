@@ -52,7 +52,10 @@ function App() {
               <div className="weather">{weather.weather[0].main}</div>
            </div>
          </div>
-         ): ('')}
+         ): (
+           <div className="weather empty">
+             <h4>Welcome to Weather App</h4>
+         <h2>Enter a location</h2></div>)}
       </main>
     </div>
   );
